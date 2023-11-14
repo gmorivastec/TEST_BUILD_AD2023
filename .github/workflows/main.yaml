@@ -4,8 +4,8 @@ on: workflow_dispatch
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-  ITCH_USERNAME: gmorivastec
-  ITCH_GAME_ID: at3003b
+  ITCH_USERNAME: memorivas
+  ITCH_GAME_ID: test_ad2023
 
 jobs:
   buildWebGL:
